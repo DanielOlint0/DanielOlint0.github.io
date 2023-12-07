@@ -1,0 +1,20 @@
+p {
+    background-color: #a5b9e4;
+    display: inline;
+}
+nav{
+    background-color: #a5b9e4;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: blue;
+}
+a:link{
+    color: #000;
+}
+a:visited{
+    color: #000;
+}
