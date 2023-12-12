@@ -1,20 +1,68 @@
-p {
-    background-color: #a5b9e4;
-    display: inline;
-}
-nav{
-    background-color: #a5b9e4;
-}
-a {
-    text-decoration: none;
+*{
+    padding: 0%;
+    margin: 0%;
 }
 
-a:hover{
-    background-color: blue;
+:root{
+    --corPrincipal: #000;
+    --corSecundaria: #fff;
+    --corTerciaria: #008080;
+    --corAnimacao: #797878;
+}
+
+h1{
+    color: var(--corSecundaria);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--corPrincipal);
+}
+
+.cabecalho-logo{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 1vw 0vw;
+}
+
+.cabecalho-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 4;
+    height: 12vh;
+}
+
+.content{
+    width: 100vw;
+    height: 615.5px;
+    background-color: var(--corSecundaria);
+    color: var(--corPrincipal);
+}
+
+.rodape{
+    width: 100vw;
+    height: 35px;
+    background-color: var(--corPrincipal);
+    color: var(--corSecundaria);
+}
+
+a {
+    margin: 0 2vw 1vw;
+    text-decoration: none;
+    font-size: large;
+}
+.cabecalho a:hover{
+    color: var(--corAnimacao);
 }
 a:link{
-    color: #000;
+    color: var(--corSecundaria);
 }
 a:visited{
-    color: #000;
+    color: var(--corSecundaria);
+}
+a:active{
+    color: var(--corSecundaria)
 }
