@@ -22,9 +22,9 @@ h1{
 
 .cabecalho-logo{
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-grow: 1;
-    margin: 0 1vw 0vw;
 }
 
 .cabecalho-menu{
@@ -65,4 +65,21 @@ a:visited{
 }
 a:active{
     color: var(--corSecundaria)
+}
+
+@media(max-width:720px){
+    .cabecalho-logo{
+        display: none;
+    }
+    .cabecalho-menu{
+        justify-content: center;
+    }
+}
+@media(max-width:320px){
+    .cabecalho-logo{
+        display: none;
+    }
+    .cabecalho-menu{
+        flex-direction: column;
+    }
 }
