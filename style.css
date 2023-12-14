@@ -76,7 +76,7 @@ a:active{
         justify-content: center;
     }
 }
-@media(max-width:320px){
+@media(max-width:395px){
     .cabecalho-logo{
         display: none;
     }
