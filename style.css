@@ -14,7 +14,7 @@ h1{
     color: var(--corSecundaria);
 }
 
-.cabecalho{
+/*.cabecalho{
     display: flex;
     width: 100vw;
     flex-direction: row;
@@ -33,6 +33,27 @@ h1{
     justify-content: flex-end;
     align-items: center;
     flex-grow: 4;
+    height: 12vh;
+}*/
+
+.cabecalho {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 100vw;
+    background-color: var(--corPrincipal);
+}
+
+.cabecalho-logo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho-menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: end;
+    align-items: center;
     height: 12vh;
 }
 
