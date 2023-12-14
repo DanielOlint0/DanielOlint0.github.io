@@ -37,14 +37,14 @@ h1{
 
 .content{
     width: 100vw;
-    height: 615.5px;
+    height: 83vh;
     background-color: var(--corSecundaria);
     color: var(--corPrincipal);
 }
 
 .rodape{
     width: 100vw;
-    height: 35px;
+    height: 5vh;
     background-color: var(--corPrincipal);
     color: var(--corSecundaria);
 }
@@ -72,6 +72,7 @@ a:active{
         display: none;
     }
     .cabecalho-menu{
+        display: flex;
         justify-content: center;
     }
 }
@@ -80,6 +81,7 @@ a:active{
         display: none;
     }
     .cabecalho-menu{
+        display: flex;
         flex-direction: column;
     }
 }
